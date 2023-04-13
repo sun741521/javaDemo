@@ -1,21 +1,17 @@
 package com.example.demo.controller;
 
-import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.RequestMapping;
+import io.swagger.annotations.Api;
+import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.RestController;
 
-import java.util.logging.Logger;
-
-@Controller
+@Api(tags = "测试")
+@RestController
 public class HelloWorld {
 
-    @RequestMapping("/index")
+    @GetMapping("/hello")
     @ResponseBody()
     public String sayHello() {
-        StringBuilder res = new StringBuilder();
-        Logger logger = Logger.getGlobal();
-        res.append("打印");
-        logger.info("字符串：" + res);
-        return "index";
+        return "hello";
     }
 }

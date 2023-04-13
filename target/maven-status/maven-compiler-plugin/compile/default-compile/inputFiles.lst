@@ -1,2 +1,11 @@
+D:\demo\java\demo\src\main\java\com\example\demo\config\SwaggerConfig.java
+D:\demo\java\demo\src\main\java\com\example\demo\service\impl\CourseServiceImpl.java
+D:\demo\java\demo\src\main\java\com\example\demo\service\CourseService.java
+D:\demo\java\demo\src\main\java\com\example\demo\config\CorsConfig.java
+D:\demo\java\demo\src\main\java\com\example\demo\controller\CourseController.java
+D:\demo\java\demo\src\main\java\com\example\demo\config\WebMvcConfig.java
+D:\demo\java\demo\src\main\java\com\example\demo\mapper\CourseMapper.java
 D:\demo\java\demo\src\main\java\com\example\demo\controller\HelloWorld.java
+D:\demo\java\demo\src\main\java\com\example\demo\entity\Course.java
 D:\demo\java\demo\src\main\java\com\example\demo\DemoApplication.java
+D:\demo\java\demo\src\main\java\com\example\demo\util\AjaxResult.java

@@ -1,2 +1,11 @@
-com\example\demo\controller\HelloWorld.class
+com\example\demo\service\CourseService.class
 com\example\demo\DemoApplication.class
+com\example\demo\mapper\CourseMapper.class
+com\example\demo\controller\CourseController.class
+com\example\demo\service\impl\CourseServiceImpl.class
+com\example\demo\controller\HelloWorld.class
+com\example\demo\config\CorsConfig.class
+com\example\demo\config\SwaggerConfig.class
+com\example\demo\util\AjaxResult.class
+com\example\demo\entity\Course.class
+com\example\demo\config\WebMvcConfig.class
