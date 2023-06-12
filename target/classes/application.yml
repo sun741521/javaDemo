@@ -18,6 +18,19 @@ spring:
     password: root3306
     driver-class-name: com.mysql.jdbc.Driver
 
+  redis:
+    #redis数据库，其有16个数据库
+    database: 0
+    #redis服务器地址
+    host: localhost
+    #redis服务器端口号
+    port: 6379
+    #连接池配置
+    lettuce:
+      pool:
+        enabled: true
+        max-active: 8
+        max-wait: 10s
 
 ## mybatis
 mybatis:
